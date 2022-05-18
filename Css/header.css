@@ -1,0 +1,78 @@
+header .head {
+    display: flex;
+    flex-direction: row;
+}
+
+header .head .first-section {
+    width: 250px;
+    margin: 15px 0 0 60px;
+    /* border: 1px black solid; */
+}
+
+header .head .first-section .logo {
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: top;
+}
+header .head .first-section p {
+    font-size: 8px;
+    padding: 3px;
+    display: inline-block;
+    width: 80px;
+    margin: 8px 5px;
+    text-align: center;
+    background: rgb(246,171,70);
+    background: linear-gradient(90deg, rgba(246,171,70,1) 0%, rgba(245,151,14,1) 37%, rgba(255,36,0,1) 100%);
+    color: white;
+    border-radius: 50px;
+    max-width: 300px;
+}
+
+header .head .second-section {
+    flex: 1;
+    margin: 15px 0 0 20px;
+    /* border: 1px red solid; */
+    text-align: center;
+}
+
+header .head .second-section ul {
+    display: inline;
+}
+
+header .head .second-section li {
+    list-style: none;
+    color: gray;
+    font-size: 10px;
+    text-decoration: none;
+    margin: 13px 10px 0 10px;
+    display: inline-block;
+
+}
+
+header .head .third-section {
+    width: 250px;
+    margin: 15px 0 0 20px;
+    /* border: 1px black solid; */
+}
+
+header .head .third-section p {
+    font-size: 10px;
+    color: gray;
+    margin: 0 10px 0 110px;
+    display: inline;
+}
+
+header .head .third-section .button-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+header .head .third-section button {
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: rgba(19, 62, 204, 0.753);
+}
