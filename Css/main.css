@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: row;
-    margin: 60px 30px;
+    margin: 160px 0 0 60px;
 }
 
 main .mainBody {
@@ -59,8 +59,8 @@ main .mainBody .button-div {
 }
 
 main .largeImage {
-    flex: 1fr;
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
 }
 
 main .largeImage img {
@@ -70,6 +70,34 @@ main .largeImage img {
     position: relative;
     margin-left: 100px;
     margin-top: 25px;
+}
+
+main .largeImage .img4 {
+    grid-row-start: 1;
+    z-index: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+main .largeImage .img1 {
+    grid-row-start: 1;
+    z-index: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+main .largeImage .img2 {
+    grid-row-start: 1;
+    z-index: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+main .largeImage .img3 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    z-index: 4;
+    grid-column-end: 3;
 }
 
 main .largeImage .img1 img {
@@ -84,10 +112,14 @@ main .largeImage .img2 img {
 
 main .largeImage .img3 img {
     width: 200px;
-    transform: rotate(20deg);
+    transform: rotate(-10deg);
 }
 
 main .largeImage .img4 img {
     width: 200px;
     transform: rotate(-60deg);
+}
+
+main .largeImage {
+    margin-top: -25px;
 }
