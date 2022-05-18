@@ -1,0 +1,93 @@
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 30px;
+}
+
+main .mainBody {
+    width: 400px;
+}
+
+main .mainBody h3 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 0;
+    line-height: 30px;
+    max-width: 300px;
+}
+
+main .mainBody .textContent1 {
+    color: gray;
+    font-size: 10px;
+    width: 280px;
+    margin-top: 8px;
+}
+
+main .mainBody .emailButton {
+    padding: 9px;
+    background-color: white;
+    border: none;
+    margin-right: 6px;
+}
+
+main .mainBody .lastLine {
+    margin: 10px 0;
+}
+
+main .mainBody .lastLine img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+main .mainBody .lastLine p {
+    display: inline-block;
+    font-size: 10px;
+    color: gray;
+    margin: 0 5px;
+}
+
+main .mainBody .button-div {
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 10px;
+    vertical-align: middle;
+    font-weight: 600;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: rgba(19, 62, 204, 0.753);
+}
+
+main .largeImage {
+    flex: 1fr;
+    display: flex;
+}
+
+main .largeImage img {
+    width: 200px;
+    position: relative;
+    color: red;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+main .largeImage .img1 img {
+    transform: rotate(-50deg);
+}
+
+
+main .largeImage .img2 img {
+    transform: rotate(-30deg);
+}
+
+
+main .largeImage .img3 img {
+    width: 200px;
+    transform: rotate(20deg);
+}
+
+main .largeImage .img4 img {
+    width: 200px;
+    transform: rotate(-60deg);
+}
